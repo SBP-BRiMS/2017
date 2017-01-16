@@ -5,60 +5,91 @@
 
     <div id="aboutwrap">
         <div class="container">
-            <div class="row mt">
+           <div class="row mt">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                     <h3>
                         2017 International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction and Behavior Representation in Modeling and Simulation<br />
                         July 5-8, 2017, Lehman Auditorium, George Washington University,  Washington DC, USA
                     </h3>
-                </div>
+      	         	<p></p>
+      	         	<h3>Best Paper Award</h3>
+      	         	<table class="noborder">
+      	         		<tr>
+      	         			<td style="width:15%"><strong>Name:</strong></td>
+      	         			<td style="width:50%">The SBP-BRiMS 2017 Terry Lyons Best Paper Award</td>
+      	         			<td style="width:35%" rowspan="3"><img src="photo/bestpaper.jpg" class="img-responsive" /></td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Recipients:&nbsp;&nbsp;</strong></td>
+      	         			<td>Kimberly Glasgow, Jessika Vitak, Yla Tausczik, and Clay Fink</td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Title:</strong></td>
+      	         			<td>“With your help... we begin to heal”: Social Media Expressions of Gratitude in the Aftermath of Disaster</td>
+      	         	</table>
+      	         	<h3>Best Student Paper Award</h3>
+      	         	<table class="noborder">
+      	         		<tr>
+      	         			<td style="width:15%"><strong>Name:</strong></td>
+      	         			<td style="width:50%">The SBP-BRiMS 2017 Terry Lyons Best Student Paper Award</td>
+      	         			<td style="width:35%" rowspan="3"><img src="photo/beststudentpaper.jpg" class="img-responsive" /></td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Recipients:&nbsp;&nbsp;</strong></td>
+      	         			<td>Teague Henry, Sabina B. Gesell, and Edward Ip</td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Title:</strong></td>
+      	         			<td>Social Position Predicting Physical Activity Level in Youth: An Application of Hidden Markov Modeling on Network Statistics</td>
+      	         	</table>
+      	         	<h3>Challenge Problem 1st Place - SPAWAR</h3>
+      	         	<table class="noborder">
+      	         		<tr>
+      	         			<td style="width:15%"><strong>Name:</strong></td>
+      	         			<td style="width:50%">The SBP-BRiMS 2017 Data Challenge Award - 1st Place</td>
+      	         			<td style="width:35%" rowspan="3"><img src="photo/challenge1.jpg" class="img-responsive" /></td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Authors:&nbsp;&nbsp;</strong></td>
+      	         			<td>Lucas A. Overbey, Scott C. Batson, Jamie Lyle, Christopher Williams, Robert Regal, Lakeisha Williams</td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Poster Title:&nbsp;&nbsp;</strong></td>
+      	         			<td>Correlating Twitter Sentiment and Event Data to Monitor Social and Political Unrest</td>
+      	         	</table>
+      	         	<h3>Challenge Problem 2nd Place - THOMSON REUTERS</h3>
+      	         	<table class="noborder">
+      	         		<tr>
+      	         			<td style="width:15%"><strong>Name:</strong></td>
+      	         			<td style="width:50%">The SBP-BRiMS 2017 Data Challenge Award - 2nd Place</td>
+      	         			<td style="width:35%" rowspan="3"><img src="photo/challenge2.jpg" class="img-responsive" /></td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Authors:&nbsp;&nbsp;</strong></td>
+      	         			<td>Quanzhi Li, Armineh Nourbakhsh, Rui Fang, Xiaomo Liu, Sameena Shah</td>
+      	         		</tr>
+      	         		<tr>
+      	         			<td><strong>Poster Title:&nbsp;&nbsp;</strong></td>
+      	         			<td>Sentiment Analysis of Political Figures across News and Social Media</td>
+      	         	</table>
+      	         	<h3>Exceptional Service Award</h3>
+      	         	<figure>
+      	         		<img src="photo/xu_profile.jpg" class="img-responsive" />
+      	         		<figcaption><strong>Kevin Xu</strong></figcaption>
+     	         	</figure>
+                </div> 	
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /aboutwrap -->
 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <br/>
-                    <img src="/static/img/aro.jpg" class="img-responsive img-thumbnail" />
-                    <div class="team-name">&nbsp;</div>
-                    <p><br/><br/>
-                        <b>ARO</b><br />
-                        <a href="http://www.arl.army.mil/www/default.cfm?page=29">The Army Research Office</a> (ARO) 
-                        
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <br/><br/><br/><br/>
-                    <br/>
-                    <img src="../assets/img/onr-Logo.JPG" class="img-responsive img-thumbnail" />
-                    <div class="team-name">&nbsp;</div>
-                    <p><br/><br/>
-                        <b>ONR</b><br />
-                        <a href="http://www.onr.navy.mil/">Office of Naval Research</a> (ONR)
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <img src="../assets/img/nsf-logo.png" class="img-responsive img-thumbnail" />
-                    <div class="team-name">&nbsp;</div>
-                    <p>
-                        <b>NSF</b><br />
-                        <a href="http://www.nsf.gov">National Science Foundation</a> (NSF)
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <img src="../assets/img/IUNI-logo.jpg" class="img-responsive img-thumbnail" />
-                    <div class="team-name">&nbsp;</div>
-                    <p>
-                        <b>IUNI</b><br />
-                        <a href="http://iuni.iu.edu/">Indiana University, Network Science Institute</a> (IUNI)
-                    </p>
-                </div>
-<!--                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <img src="../assets/img/springer.jpg" class="img-responsive img-thumbnail" />
-                    <div class="team-name">&nbsp;</div>
-                    <p>
-                        <b>Springer</b><br />
-                        <a href="http://www.springer.com/us/">Springer</a>
-                    </p>
-                </div>
--->       </div><!-- /container -->
+
+    <div id="portfoliowrap">
+        <div class="container">
+            <div class="row mt centered">
+            &nbsp;
+            </div><!-- /row -->
+        </div><!-- /container -->
     </div><!-- /aboutwrap -->
 
 <!-- start: Footer -->
@@ -86,7 +117,7 @@
 
                     <h3>Photos</h3>
                     <div class="flickr-widget">
-                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=random&size=s&layout=x&source=all_tag&tag=sbp-brims"></script>
+                    	<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=random&size=s&layout=x&source=all_tag&tag=sbp-brims"></script>
                         <div class="clear"></div>
                     </div>
 

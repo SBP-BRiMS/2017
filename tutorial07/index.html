@@ -8,95 +8,126 @@
            <div class="row mt">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h3>
-                        SBP-BRIMS 2017 Tutorial: Generative models for social network data  
-                        <a href="tutorialseven.pdf"><i class="fa fa-file-o"></i> PDF</a></h3> <small>(Tuesday, June 28 at 8:30am)</small> <br/> <br/>
+                        SBP-BRIMS 2017 Tutorial: Anti-discrimination learning: a causal modeling-based framework  
+                        <a href="tutorialseven.pdf"><i class="fa fa-file-o"></i> PDF</a></h3> <small>(Wednesday July 5 at 3:30pm)</small> <br/> <br/>
                     <table>
                     	<tr>
-                    	    <td style="padding-right: 1em"><strong><a href="https://eng.utoledo.edu/eecs/people/xu_profile.html">Kevin S. Xu</a></strong></td>
-                    	    <td><strong><a href="http://cseweb.ucsd.edu/~jfoulds/">James R. Foulds</a></strong></td>
+                    	    <td style="padding-right: 1em"><strong>Lu Zhang</strong></td>
+                    	    <td><strong>Yongkai Wu</strong></td>
+                    	    <td><strong>Xintao Wu</strong></td>
                     	</tr>
                     	<tr>
-                    	    <td style="padding-right: 1em"><small>University of Toledo</small></td>
-                    	    <td><small>University of California, San Diego</small></td>
-                    	</tr>
-                    	<tr>
-                    	    <td style="padding-right: 1em"><small><a href=""></a></small></td>
-                    	    <td><small></small></td>
+                    	    <td colspan="3" style="padding-right: 1em text-align:center"><small>University of Arkansas</small></td>
                     	</tr>
                     </table>
                     <br/>
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p>
-                    Due in part to the ubiquity of social network data today, interest in social network analysis has spread beyond its 
-                    traditional home in the social sciences to many other disciplines including physics, computer science, statistics, 
-                    and engineering. A topic of significant interest in social network analysis is the creation of statistical models 
-                    for social network data. Many of these models are generative, which allows one to simulate random networks from a 
-                    particular model. Additionally many models share a common structure: each vertex is assigned a set of latent or 
-                    hidden attributes, and edges between vertices are generated with probability conditional on the hidden attributes of 
-                    the vertices. These latent variables, which are automatically inferred from the network, can be valuable for 
-                    understanding network structure with respect to sociological principles, and for making predictions about the network's 
-                    current and future state.
+                    <p><strong>Abstract:</strong> Anti-discrimination learning is an increasingly
+                    	important task in data mining and machine learning fields.
+                    	Discrimination discovery is the problem of unveiling
+                    	discriminatory practices by analyzing a dataset of historical
+                    	decision records, and discrimination prevention aims to remove
+                    	discrimination by modifying the biased data and/or the
+                    	predictive algorithms. Discrimination is causal, which means that
+                    	to prove discrimination one needs to derive a causal relationship
+                    	rather than an association relationship. Although it is wellknown
+                    	that association does not mean causation, the gap between
+                    	association and causation is not paid enough attention by many
+                    	researchers. The aim of this tutorial is to point out the limitations
+                    	existing in current association-based approaches, introduce a
+                    	causal modeling-based framework for anti-discrimination
+                    	learning, and suggest potential future research directions.
                     </p>
-                    <p>
-                    In this tutorial, we cover four main classes of <em>generative models</em> for social network data, under which many
-                    of the commonly used statistical network models fall:
-                    <ul>
-                    	<li><em>Latent space models</em>, which generally assume latent continuous attributes for vertices where the
-                    	probability of an edge between two vertices is given by a distance function applied to the attributes
-                    	of the vertices.</li>
-                    	<li><em>Block models</em>, which divide vertices into one of k latent classes where the probability of an edge 
-                    	between two vertices depends only on the classes of the vertices.</li>
-                    	<li><em>Latent feature models</em>, which allow vertices to have arbitrarily many unique (typically binary)
-                    	features, where the probability of an edge between two vertices is given by a weighted sum of the 
-                    	elements of their feature vectors.</li>
-                    	<li><em>Mixed membership models</em>, in which each vertex has partial membership in their latent classes.</li>
-                    </ul>
+                    <p><strong>IMPORTANCE AND TARGET AUDIENCE</strong>Discrimination discovery and prevention have been an
+                    	active research area in data science due to increasing worries of
+                    	discrimination as data analytic technologies could be used to
+                    	digitally unfairly treat unwanted groups, such as customers,
+                    	employees, tenants, or recipients of credit. In 2014, U.S.
+                    	President Obama called for a 90-day review of data collecting
+                    	and analyzing practices. An important conclusion from the
+                    	resulting report [1] is that "Big data technologies can cause
+                    	societal harms beyond damages to privacy, such as
+                    	discrimination against individuals and groups". In May 2016,
+                    	the Executive Office of the President made recommendations
+                    	to "support research into mitigating algorithmic discrimination,
+                    	building systems that support fairness and accountability, and
+                    	developing strong data ethics frameworks" [2]. How to ensure
+                    	non-discrimination in social computing and behavioral
+                    	modeling & prediction is an important and challenging topic.
                     </p>
-                    <p>
-                    We discuss some of the challenges when it comes to applying these types of generative models on social
-                    network data, including
-                    <ul>
-                    	<li>Optimization methods to fit these generative models, which involves estimating the latent attributes 
-                    	of the vertices, in an optimal or near-optimal manner.</li>
-                    	<li>Simulation approaches for Bayesian inference in these models using Markov chain Monte Carlo.</li>
-                    	<li>Model selection and verification to validate a particular fit to a social network model.</li>
-                    	<li>Interpretation of model parameters and their relationship to social network structure.</li>
-                    </ul>
+                    <p>The tutorial targets the researchers interested in studying
+                    	the issue of discovering and preventing discrimination caused
+                    	by data mining and machine learning algorithms from the
+                    	causal modeling perspective. The audience is assumed to be
+                    	familiar with the fundamental concepts in data mining and
+                    	machine learning, especially in predictive learning. No special
+                    	requirement is needed on software and hardware.
                     </p>
-                    <p>
-                    We conclude with an overview of recent developments on generative models for social network data, including 
-                    models for a <em>collection</em> of networks, which can be used to represent relations at different times 
-                    (dynamic networks) or different types of relations (multi-layer networks).
+                    <p><strong>OUTLINE:</strong> The tutorial is organized as six parts, including an
+                    	introduction part, a literature review part, three main technical
+                    	parts, and a concluding part. The tutorial is based in part on our
+                    	position paper [3].<br/>
+                    <ol>
+                    	<li>Introduction, motivation and challenges</li>
+                    	<ol>
+                    		<li>Legal definitions and principles of discrimination</li>
+                    		<li>Motivation of anti-discrimination learning</li>
+                    		<li>Challenge in discrimination discovery and prevention</li>
+                    	</ol>
+                    	<li>Association-based anti-discrimination literature review</li>
+                    	<ol>
+                    		<li>Approaches for discrimination discovery</li>
+                    		<li>Approaches for discrimination prevention</li>
+                    		<li>Gap between association and causation</li>
+                    	</ol>
+                    	<li>Causal modeling-based anti-discrimination framework</li>
+                    	<ol>
+                    		<li>Causal modeling background</li>
+                    		<li>Discrimination categorization and anti-discrimination
+                    			framework overview</li>
+                    	</ol>
+                    	<li>System-level discrimination discovery and removal</li>
+                    	<ol>
+                    		<li>Modeling of direct and indirect discrimination</li>
+                    		<li>Quantitative discrimination criterion</li>
+                    		<li>Discrimination removal algorithms</li>
+                    		<li>Ensuring non-discrimination in prediction</li>
+                    	</ol>
+                    	<li>Group and individual-level discrimination</li>
+                    	<ol>
+                    		<li>Approach for group-level direct discrimination</li>
+                    		<li>Approach for individual-level direct discrimination</li>
+                    	</ol>
+                    	<li>Challenges and directions for future research</li>
+                    </ol>
+                   </p>
+                   <p><strong>TUTORS’ SHORT BIO:</strong> Dr. Lu Zhang is a postdoctoral researcher in the Computer
+                   	Science and Computer Engineering Department, University of
+                   	Arkansas. He received the BEng degree in computer science
+                   	and engineering from the University of Science and
+                   	Technology of China, in 2008, and the PhD degree in computer
+                   	science from Nanyang Technological University, Singapore in
+                   	2013. His research interests include data mining algorithms,
+                   	discrimination-aware data mining, and causal inference.
+                   	</p>
+                   	<p>Yongkai Wu is a Ph.D. student in the Department of
+                   		Computer Science and Computer Engineering at the University
+                   		of Arkansas.
+                   	</p>
+                   	<p>Dr. Xintao Wu is a Professor in the Department of
+                   		Computer Science and Computer Engineering at the University
+                   		of Arkansas. His major research interests include data privacy,
+                   		bioinformatics and discrimination-aware data mining.
+                   	</p>
+                   	<p><strong>REFERENCES</strong><br/
+                   		[1] Big data: Seizing opportunities, preserving values. Whilte House (2014)<br/>
+                   		[2] Munoz, C., Smith, M., Patil, D.: Big data: A report on algorithmic systems, opportunity, and 
+                   		civil rights. Executive Office of the President (2016)<br/>
+                   		[3] Zhang, L., Wu, X.: Anti-discrimination learning: a causal modeling based
+                   			framework, JDSA, to appear.<br/>
                     </p>
-                    <p>
-                    <strong>Target Audience:</strong> This tutorial should be applicable to attendees with interests in social network analysis from a statistical
-                    perspective and backgrounds in any of the topic areas covered by SBP-BRiMS, including behavioral and 
-                    social sciences, public health, and computer and information sciences.
-                    </p>
-                    <p>
-                    <strong>About the Presenters:</strong>
-                    </p>
-                    <p>
-                   Kevin S. Xu received the B.A.Sc. degree in Electrical Engineering from the University of Waterloo in 2007 
-                   and the M.S.E. and Ph.D. degrees in Electrical Engineering: Systems from the University of Michigan in 
-                   2009 and 2012, respectively. He was a recipient of the Natural Sciences and Engineering Research Council 
-                   of Canada (NSERC) Postgraduate Master's and Doctorate Scholarships. He is currently an assistant professor 
-                   in the EECS department at the University of Toledo and has previously held industry research positions at 
-                   Technicolor and 3M. His main research interests are in machine learning and statistical signal processing 
-                   with applications to network science and human dynamics.
-                    </p>
-                    <p>
-                    James (a.k.a. Jimmy) Foulds is a postdoctoral scholar at the University of California, San Diego. His 
-                    research interests are in both applied and foundational machine learning, focusing on probabilistic latent 
-                    variable models and the inference algorithms to learn them from social networks and text data. His work aims 
-                    to promote the practice of latent variable modeling for applied research in disciplines such as computational 
-                    social science and the digital humanities. He earned his PhD in computer science at the University of 
-                    California, Irvine, and was a postdoctoral scholar at the University of California, Santa Cruz. His master's 
-                    and bachelor's degrees were earned with first class honours at the University of Waikato, New Zealand, 
-                    where he also contributed to the Weka data mining system.
- 		    </p>
                </div><!-- /row -->
         </div><!-- /container -->
     </div><!-- /aboutwrap -->
